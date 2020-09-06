@@ -1,0 +1,3 @@
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{1}
+\contentsline {section}{\numberline {2}Formas de escribir en latex}{1}
+\contentsline {section}{\numberline {3}Fracci\IeC {\'o}n}{1}

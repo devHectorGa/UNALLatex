@@ -1,0 +1,84 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\title{Matemática}
+\author{Hector Ferney Garzón Cagua }
+\date{Septiembre 2020}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Introducción}
+Esta es un archivo para mostrar como funciona \LaTeX.
+
+\section{Formas de escribir en latex}
+
+\tiny
+$ax+by+c=0$
+$$ax+by+c=0$$
+\( ax+by+c=0 \)
+
+\begin{math}
+  ax+by+c=0
+\end{math}
+\section{Fracción}
+
+\begin{math}
+  \frac{a}{b}=\frac{c}{d} \\
+\end{math}
+
+Tenemos la equivalencia $\frac{a}{b}=\frac{c}{d}$, válida para todo $a$, $b$, $c$, $d$ \\
+
+\normalsize
+
+
+Tenemos la equivalencia $$\frac{a}{b}=\frac{c}{d}$$ válida para todo $a$, $b$, $c$, $d$ \\
+
+\begin{align*}
+  x &=y    &   w &=z  &   a &= b+c \\
+  2x &=-y  &      &   &    a&= b \\
+\end{align*}
+
+\begin{equation}
+  \begin{matrix}
+    a & b \\
+    c & d
+  \end{matrix}  
+\end{equation}
+
+\begin{equation}
+  \begin{pmatrix}
+    2 & 5 & 0 \\
+    7 & 3 & 8 \\ 
+    3 & 0 & 1
+  \end{pmatrix}
+\end{equation}
+
+\begin{equation}
+  \begin{bmatrix}
+    2 & 5 & 0 \\
+    7 & 3 & 8 \\ 
+    3 & 0 & 1
+  \end{bmatrix}
+\end{equation}
+
+\begin{equation}
+  \begin{Bmatrix}
+    2 & 5 & 0 \\
+    7 & 3 & 8 \\ 
+    3 & 0 & 1
+  \end{Bmatrix}
+\end{equation}
+
+\[
+  \sum_{i=1}^{n} x_i = x_{1}+x_{2}+x_{3}
+\]
+
+\[
+  \sum_{i=1}^{n} \frac{\cos(i)}{\arccos{2i}}
+\]
+
+\end{document}
